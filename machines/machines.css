@@ -1,0 +1,20 @@
+#machines .tablewrapper {
+	width: 98%;
+	overflow: auto;
+}
+#machines td {
+	border: 1px solid #ddd;
+	border-width: 0 1px 1px 0;
+}
+
+/*  Define the background color for all the ODD table columns  */
+#machines tr td:nth-child(even){ 
+	background: #FFCC99;
+}
+/*  Define the background color for all the EVEN table columns  */
+#machines tr td:nth-child(odd){
+}
+
+#machines tr:hover {
+  background-color: #99CCFF !important;
+}
